@@ -34,3 +34,37 @@ This visualization highlights the most in-demand skills for three job roles in C
 These insights can help job seekers prioritize their learning based on role-specific skill demand.
 
 
+## 2. How are in-demand skills trending for Data Analysts?
+
+### Visualize Data
+
+```python
+
+df_plot = df_DA_US_percent.iloc[:, :5]
+
+sns.lineplot(data=df_plot, dashes=False, palette='tab10')
+sns.set_theme(style='ticks')
+sns.despine()
+
+from matplotlib.ticker import PercentFormatter
+ax=plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+for i in range(5):
+    plt.text(11.2, df_plot.iloc[-1, i], df_plot.columns[i])
+
+
+plt.show()
+```
+
+### Results
+
+![Trendig Top Skills for Data Analysts in th US](3_Project\images\Trending_top_skills_DA_US.png)
+*Bar graph visualizing the trending top skills for data analysts in the US 2023.*
+
+
+### Insights
+
+-SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
+- Excel experienced a significant increase in demand starting around September, surpassing both Python and Tableau by the end of the year.
+-Both Python and Tableau show relatively stable demand throughout the year with some fluctuations bur remain essential skills for data analysts. Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
