@@ -1,3 +1,12 @@
+# Project Overview
+
+This is my first data analysis project, where I primarily focused on learning new skills for a Data Analyst role. I followed the "Python for Data Analytics - Full Course for Beginners" by Luke Barousse on YouTube, which helped me improve my Python skills. Before that, I learned Python from the book "Think Python" by Allen B. Downey.
+
+For this project, I analyzed skills, salaries, and job demand in the data analytics field. Initially, I wanted to work with data for Croatia, but I found that the available data was too limited and lacked depth. Because of this, I decided to continue my analysis using data from the United States, where information is more detailed and widely available.
+
+However, I still included some analysis for Croatia where possible, to compare and explore differences. This project helped me practice data cleaning, visualization, and insights extraction while improving my Python skills for data analysis.
+
+
 # The Analysis
 
 ## 1. What are the most demanded skills fot the top 3 most popular data roles?
