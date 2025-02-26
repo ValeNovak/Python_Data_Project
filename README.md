@@ -6,6 +6,27 @@ For this project, I analyzed skills, salaries, and job demand in the data analyt
 
 However, I still included some analysis for Croatia where possible, to compare and explore differences. This project helped me practice data cleaning, visualization, and insights extraction while improving my Python skills for data analysis.
 
+# The Questions
+
+Below are the questions I want to answer in my project:
+    
+    1. What are the skills most in demand for the top 3 most popular data roles?
+    2. How are in-demand skills trending for Data Analysts?
+    3. How well do jobs and skills pay for Data Analysts?
+    4. What are the optimal skills for data analysts to learn? (High Demand and High Paying)
+
+# Tools I Used
+
+For this analysis, I primarily used Python along with several key libraries for data manipulation and visualization:
+
+- Pandas – for data cleaning, manipulation, and exploration
+- Matplotlib – for basic data visualization
+- Seaborn – for advanced and more visually appealing statistical plots
+
+I ran my Python scripts using Jupyter Notebook, which allowed for interactive coding and analysis. Additionally, I used Visual Studio Code for executing scripts and general coding.
+
+For version control and sharing my work, I utilized Git and GitHub, ensuring proper tracking of changes and collaboration.
+
 
 # The Analysis
 
@@ -184,5 +205,9 @@ Python offers one of the highest salaries (~$98K).
 
 Overall, programming and database skills (Python & SQL) are the most valuable for data analysts in terms of both salary and demand.
 
+## What I’ve Learned
 
+Building upon the foundation provided by the book "Learn Python," this project has significantly enhanced my understanding of Python, especially in the areas of libraries, data cleaning, and strategy analysis. Working on this project, I’ve encountered and tackled numerous new concepts that have broadened my skill set. The hands-on experience with libraries has been invaluable, allowing me to explore and apply various tools that are crucial for data analysis and processing. Data cleaning, which initially seemed like a daunting task, has become more intuitive, and I now feel confident in handling messy datasets. Furthermore, diving into strategy analysis has given me insights into how data can be used to drive decision-making.
+
+This project has been an incredible learning opportunity, and it has inspired me to continue growing in these areas. I am excited to further develop my skills in Python and explore even more advanced techniques in the future.
 
