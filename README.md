@@ -68,3 +68,37 @@ plt.show()
 -SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
 - Excel experienced a significant increase in demand starting around September, surpassing both Python and Tableau by the end of the year.
 -Both Python and Tableau show relatively stable demand throughout the year with some fluctuations bur remain essential skills for data analysts. Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
+
+## 3. How well do jobs and skills pay for Data Analysts?
+
+## Salary Analysis
+
+#### Visualize Data
+
+```python
+sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
+
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K'))
+
+```
+#### Results
+
+![Salary  Distriburions of Data Jobs in th US](3_Project\images\Salary_distributions_US.png)*Box plot visualizing the salary distributions for the top 6 data job titles.*
+
+#### Insights
+
+This boxplot visualizes the salary distribution for various data-related roles in the United States, including Data Analyst, Senior Data Analyst, Data Engineer, Senior Data Engineer, Data Scientist, and Senior Data Scientist.
+
+Each box represents the interquartile range (IQR), showing the middle 50% of salaries for each role. The line inside the box indicates the median salary, while the whiskers extend to capture most of the data, excluding extreme outliers. The dots beyond the whiskers represent outliers—salaries that are significantly higher or lower than the majority.
+
+Key insights from the graph:
+
+- Higher seniority = higher salaries: Senior roles tend to have higher median salaries and larger salary ranges.
+- Data Scientists and Data Engineers have similar distributions, but Senior Data Scientists have the highest median pay.
+- Significant outliers exist, especially in senior roles, indicating that some professionals earn exceptionally high salaries.
+- Data Analysts have the lowest salary range, with less variation compared to other roles.
+
+This visualization helps understand salary trends and variations in the data industry, highlighting differences between positions and experience levels.
+
+
+
