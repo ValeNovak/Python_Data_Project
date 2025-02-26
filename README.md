@@ -206,8 +206,7 @@ This scatter plot shows the most valuable skills for data analysts in the US, ba
 - Color-coded categories: Programming (blue), Analyst Tools (orange), Databases (green), and Cloud (red).
 
 Key Insights:
-- SQL is the most in-demand skill (~55% of jobs).
-Python offers one of the highest salaries (~$98K).
+- SQL is the most in-demand skill (~55% of jobs) and Python offers one of the highest salaries ($98K). 
 - Tableau, Power BI, and R are valuable analytical tools with solid salaries.
 - Excel is widely used (~40% demand) but offers lower salary potential.
 - Cloud and database skills (Oracle, SQL Server) pay well but have lower demand.
