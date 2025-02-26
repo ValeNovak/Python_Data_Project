@@ -33,7 +33,7 @@ For version control and sharing my work, I utilized Git and GitHub, ensuring pro
 ## 1. What are the most demanded skills fot the top 3 most popular data roles?
 
 
-To find the most demanded skills fot the top 3 most popular data roles. I filtered out those position by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I shoud pay attention to depending on the role I'm targeting.
+To find the most demanded skills fot the top 3 most popular data roles. I filtered out those position by which ones were the most popular, and got the top 5 skills for these top 3 roles in Croatia. This query highlights the most popular job titles and their top skills, showing which skills I shoud pay attention to depending on the role I'm targeting.
 
 View my notebook with detailed steps here: [2_Skill_Demand.ipynb](3_Project\2_Skill_Demand.ipynb)
 
@@ -49,7 +49,11 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills in Croatia](3_Project\images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills in Croatia](https://github.com/ValeNovak/Python_Data_Project/blob/main/3_Project/images/skill_demand_all_data_roles.png)
+
+*Top skills requested in Croatia Job Postings*
+
+
 
 ### Insights
 
@@ -91,7 +95,8 @@ plt.show()
 
 ### Results
 
-![Trendig Top Skills for Data Analysts in th US](3_Project\images\Trending_top_skills_DA_US.png)
+![Trendig Top Skills for Data Analysts in th US](https://github.com/ValeNovak/Python_Data_Project/blob/main/3_Project/images/Trending_top_skills_DA_US.png)
+
 *Bar graph visualizing the trending top skills for data analysts in the US 2023.*
 
 
@@ -118,7 +123,9 @@ ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K'
 ```
 #### Results
 
-![Salary  Distriburions of Data Jobs in th US](3_Project\images\Salary_distributions_US.png)*Box plot visualizing the salary distributions for the top 6 data job titles.*
+![Salary  Distriburions of Data Jobs in th US](https://github.com/ValeNovak/Python_Data_Project/blob/main/3_Project/images/Salary_distributions_US.png)
+
+*Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
 
@@ -154,7 +161,8 @@ plt.show()
 
 #### Results 
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](3_Project\images\Salary_DA.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](https://github.com/ValeNovak/Python_Data_Project/blob/main/3_Project/images/Salary_DA.png)
+
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 ### Insights
@@ -184,6 +192,7 @@ sns.despine()
 #### Results
 
 ![Optimal skills](https://github.com/ValeNovak/Python_Data_Project/blob/main/3_Project/images/Optimal_skills.png)
+
 *A scatter plot visualizing th most optimal skills (high paying & high demand) for data analysts in the US.*
 
 
