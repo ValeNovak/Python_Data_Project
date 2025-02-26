@@ -183,7 +183,7 @@ sns.despine()
 
 #### Results
 
-![Optimal skills](3_Project\images\Optimal_skills.png)
+![Optimal skills](./3_Project\images\Optimal_skills.png)
 *A scatter plot visualizing th most optimal skills (high paying & high demand) for data analysts in the US.*
 
 
