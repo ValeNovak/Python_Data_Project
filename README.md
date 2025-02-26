@@ -36,6 +36,8 @@ These insights can help job seekers prioritize their learning based on role-spec
 
 ## 2. How are in-demand skills trending for Data Analysts?
 
+View my notebook with detailed steps here: [3_Skill_Trends.ipynb](3_Project\3_Skill_Trends.ipynb)
+
 ### Visualize Data
 
 ```python
@@ -71,6 +73,9 @@ plt.show()
 
 ## 3. How well do jobs and skills pay for Data Analysts?
 
+View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+
+
 ## Salary Analysis
 
 #### Visualize Data
@@ -99,6 +104,35 @@ Key insights from the graph:
 - Data Analysts have the lowest salary range, with less variation compared to other roles.
 
 This visualization helps understand salary trends and variations in the data industry, highlighting differences between positions and experience levels.
+
+### Highest Paid & Most Demanded Skills for Data Analysts
+
+
+
+#### Visualize Data
+
+```python 
+
+#Top 10 Highest Paid Skills fot Data Analysts
+sns.barplot(data=df_DA_top_pay, x='median', y=df_DA_top_pay.index, ax=ax[0],hue='median', palette='dark:b_r')
+
+#Top 10 Most In-Demand Skills fot Data Analysts
+sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], hue='median', palette='light:b')
+
+plt.show()
+```
+
+#### Results 
+
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](3_Project\images\Salary_DA.png)
+*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+
+### Insights
+
+- The top graph shows specialized technical skill like 'dplyr', 'Bitbucket' and 'Gitlab' are assoiciated with higher salaries. 
+
+- The bottom graph highlights that fundational skills like 'Excel', 'Python' and 'SQL' are most in-demand even though they may not offer the highest salaries.
+
 
 
 
