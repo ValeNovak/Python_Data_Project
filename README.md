@@ -133,6 +133,47 @@ plt.show()
 
 - The bottom graph highlights that fundational skills like 'Excel', 'Python' and 'SQL' are most in-demand even though they may not offer the highest salaries.
 
+## 4. What is the most optimal skill to learn for Data Analysts?
+
+Let's check out in Luke's code that I'm learning from.
+
+View my notebook with detailed steps here: [5_Optimal_skills.ipynb](3_Project\5_Optimal_skills.ipynb)
+
+#### Visualize Data
+
+```python
+sns.scatterplot(
+    data=df_plot,
+    x='skill_percent',
+    y='median_salary',
+    hue='technology'
+)
+sns.despine()
+```
+
+#### Results
+
+![Optimal skills](3_Project\images\Optimal_skills.png)
+*A scatter plot visualizing th most optimal skills (high paying & high demand) for data analysts in the US.*
+
+
+#### Insights
+
+
+This scatter plot shows the most valuable skills for data analysts in the US, based on job demand and median yearly salary.
+
+- X-axis: Percentage of job postings requiring each skill (demand).
+- Y-axis: Median yearly salary for roles requiring that skill.
+- Color-coded categories: Programming (blue), Analyst Tools (orange), Databases (green), and Cloud (red).
+
+Key Insights:
+- SQL is the most in-demand skill (~55% of jobs).
+Python offers one of the highest salaries (~$98K).
+- Tableau, Power BI, and R are valuable analytical tools with solid salaries.
+- Excel is widely used (~40% demand) but offers lower salary potential.
+- Cloud and database skills (Oracle, SQL Server) pay well but have lower demand.
+
+Overall, programming and database skills (Python & SQL) are the most valuable for data analysts in terms of both salary and demand.
 
 
 
